@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+body{
+  display: flex;
+  justify-content: center;
+}
+
+.canvas{
+  display:flex;
+  flex-wrap: wrap;
+  width: 500px;
+}
+
+.pixel{
+  border: 1px solid LightGrey;
+  width: 14px;
+  height: 14px;
+}
+
+.colorPixel{
+  border: 1px solid LightGrey;
+  background: white;
+  width: 14px;
+  height: 14px;
+}
+
+.colorPicker{
+  display: flex;
+  align-self: center;
+}
